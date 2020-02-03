@@ -1,0 +1,80 @@
+body {
+    background: #333;
+    color: #fff;
+}
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+#main-nav .nav-link {font-size: 1.1rem;}
+
+#home-section {
+    background: url(../img/lex-hotel.jpg) no-repeat fixed;
+    background-size: cover;
+    min-height: 700px;
+}
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(0,0,0, 0.1);
+}
+#home-section .home-inner {
+    padding-top: 150px;
+}
+.bg-lightslategray { background-color: lightslategray !important;}
+
+#home-section .card-form.bg-lightslategray {
+    opacity: 0.9;
+    max-width: 500px;
+}
+
+#home-section .fas {
+    color: lightslategray;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#residence-section .fas, #executive-section .fas {
+    color: lightslategray;
+    padding: 5px;
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+}
+
+#premium-section .fas {
+    background: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#premium-head-section li {
+    font-size: 1.2rem;
+    margin-top: .6rem;
+    text-align: left;
+    list-style: circle;
+}
+
+#general-info-section h6 {
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+
+/*
+Media queries – small screen
+ */
+@media screen and (max-width: 768px) {
+    #premium-head-section .facilities {flex-direction: column;}
+}
+
+/*
+Media queries – extra small screen
+ */
+@media screen and (min-width: 576px) and (max-width: 635px) {
+    #general-info-section button.book-online {margin-left: -20px;}
+}

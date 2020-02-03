@@ -1,6 +1,11 @@
 # ignore everything in the root except the "wp-content" directory.
 !wp-content/
 
+#ignore IDE and auxiliary project files
+.idea*/
+looplab/*
+img/*
+
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
 wp-content/*
