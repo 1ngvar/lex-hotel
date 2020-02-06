@@ -8,10 +8,20 @@ body {
 }
 #main-nav .nav-link {font-size: 1.1rem;}
 
+#main-nav p {margin-bottom: 0}
+
+#main-nav p .fas {font-size: 1.05rem}
+
+#main-nav p a, #residence-head-section p.lead a {color: #e6e6c4}
+
 #home-section {
     background: url(../img/lex-hotel.jpg) no-repeat fixed;
     background-size: cover;
     min-height: 700px;
+}
+#home-section .lex-heading img {
+    width: 235px;
+    margin: -8px 0 -8px 30px;
 }
 #home-section .dark-overlay {
     position: absolute;
@@ -56,14 +66,28 @@ body {
     font-size: 1.2rem;
     margin-top: .6rem;
     text-align: left;
-    list-style: circle;
 }
+#premium-head-section img.tesla-charger {
+    width: 130px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+#premium-head-section img.tesla-charger + span {
+    font-size: 1.2rem;
+    font-family: Arial,sans-serif;
+}
+
 
 #general-info-section h6 {
     margin-top: 18px;
     font-weight: bold;
 }
 
+
+#footer .copyright img {
+    width: 93px;
+    margin: -3px 0 2px 0;
+}
 
 /*
 Media queries – small screen
