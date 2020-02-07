@@ -14,11 +14,22 @@ body {
 
 #main-nav p a, #residence-head-section p.lead a {color: #e6e6c4}
 
-#home-section {
-    background: url(../img/lex-hotel.jpg) no-repeat fixed;
-    background-size: cover;
-    min-height: 700px;
+#home-section {min-height: 700px;}
+
+#home-section .logo_header {
+    position: absolute;
+    z-index: 9;
+    top: 15%;
+    left: 12%;
 }
+
+#home-section .booking-header {
+    position: absolute;
+    z-index: 9;
+    top: 23%;
+    right: 12%;
+}
+
 #home-section .lex-heading img {
     width: 235px;
     margin: -8px 0 -8px 30px;
@@ -37,8 +48,8 @@ body {
 .bg-lightslategray { background-color: lightslategray !important;}
 
 #home-section .card-form.bg-lightslategray {
-    opacity: 0.9;
-    max-width: 500px;
+    opacity: 1;
+    max-width: 470px;
 }
 
 #home-section .fas {
