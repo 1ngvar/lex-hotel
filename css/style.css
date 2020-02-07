@@ -48,6 +48,12 @@ body {
     border-radius: 5px;
 }
 
+.carousel .img-fluid {
+    max-height: 705px;
+    width: 100%;
+}
+
+
 #residence-section .fas {
     color: lightslategray;
     padding: 5px;
