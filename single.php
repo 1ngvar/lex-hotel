@@ -44,18 +44,18 @@
                   <li data-target="#carousel" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner">
-                  <div class="carousel-item active"><img src="img/carousel/Kyiv_evening_sky.jpg" alt="Kyiv_evening_sky"/></div>
-                  <div class="carousel-item"><img src="img/carousel/council.jpg" alt="council"/></div>
-                  <div class="carousel-item"><img src="img/carousel/Maydan.jpg" alt="promenade"/></div>
+                  <div class="carousel-item active"><img src="<?php echo THEME_URL?>/img/carousel/Kyiv_evening_sky.jpg" alt="Kyiv_evening_sky"/></div>
+                  <div class="carousel-item"><img src="<?php echo THEME_URL?>/img/carousel/council.jpg" alt="council"/></div>
+                  <div class="carousel-item"><img src="<?php echo THEME_URL?>/img/carousel/promenade.jpg" alt="promenade"/></div>
               </div>
           </div>
-
+          
           <!--  LOGO AND BOOKING FORM -->
           <div class="home-inner container">
               <div class="row">
                   <div class="col-lg-8 d-none d-lg-block">
                       <div class="lex-heading">
-                          <img src="img/LEX_trend-hotel_gold.png">
+                          <img src="<?php echo THEME_URL?>/img/LEX_trend-hotel_gold.png">
                       </div>
                       <div class="d-flex">
                           <div class="p-4 align-self-start">
@@ -134,7 +134,7 @@
   <section id="residence-section" class="bg-light text-muted py-5">
       <div class="container">
           <div class="row">
-              <div class="col-md-6"><img src="img/superooms-1.jpg" alt="superoom" class="img-fluid mb-3 rounded-circle"/></div>
+              <div class="col-md-6"><img src="<?php echo THEME_URL?>/img/superooms-1.jpg" alt="superoom" class="img-fluid mb-3 rounded-circle"/></div>
               <div class="col-md-6">
                   <h3>Проживання</h3>
                   <p>Готель має 25 номерів від 20 до 40 кв.м</p>
@@ -230,7 +230,7 @@
                           <li><span class="fa-li"><i class="fas fa-car"></i></span>Охоронювана парковка</li>
                       </ul>
                   </div>
-                      <img src="img/tesla-destination-charger.jpg" class="tesla-charger"/> <span>На парковці зарядна станція для електромобілів</span>
+                      <img src="<?php echo THEME_URL?>/img/tesla-destination-charger.jpg" class="tesla-charger"/> <span>На парковці зарядна станція для електромобілів</span>
               </div>
           </div>
           </div>
@@ -241,7 +241,7 @@
       <div class="container">
           <div class="row">
               <div class="col-md-6 order-2">
-                  <img src="img/superooms-1.jpg" alt="superoom" class="img-fluid mb-3 rounded-circle"/>
+                  <img src="<?php echo THEME_URL?>/img/superooms-1.jpg" alt="superoom" class="img-fluid mb-3 rounded-circle"/>
               </div>
               <div class="col-md-6">
                   <h5 class="p-4">Комфорт є головним пріоритетом в наших затишних сучасних номерах. У нашому готелі ви повинні спати так само, як і у власному ліжку, а може навіть зручніше. Наші анатомічні ортопедичні матраци класу "ЛЮКС" і постільна білизна з високоякісної бавовни забезпечать вам прекрасний сон і відпочинок. А спеціальні штори "блекаут" ізолюють вас від світла за вікнами та забезпечать затишок і комфорт під час відпочинку після бурхливого насиченого дня. Прекрасні дні починаються з комфортної доброї ночі!
@@ -297,13 +297,13 @@
 
 
   <!--  CITY VIEW  -->
-  <img src="img/Irpin_Square.jpg" class="w-100" alt="Irpin Central Square">
+  <img src="<?php echo THEME_URL?>/img/Irpin_Square.jpg" class="w-100" alt="Irpin Central Square">
 
   <!--  HABITATION CONDITIONS SECTION  -->
   <section id="executive-section" class="bg-light text-muted py-5">
       <div class="container">
           <div class="row">
-              <div class="col-md-6"><img src="img/superooms-1.jpg" alt="superoom" class="img-fluid mb-3 rounded-circle"/></div>
+              <div class="col-md-6"><img src="<?php echo THEME_URL?>/img/superooms-1.jpg" alt="superoom" class="img-fluid mb-3 rounded-circle"/></div>
 
               <!--  HABITATION CONDITIONS  -->
               <div class="habitation-conditions col-md-6">
@@ -432,7 +432,7 @@
       <div class="container">
           <div class="row">
               <div class="copyright col text-center py-3">
-                  <img src="img/LEX_trend-hotel_gold.png" alt="logo">
+                  <img src="<?php echo THEME_URL?>/img/LEX_trend-hotel_gold.png" alt="logo">
                   <p> Copyright &copy; <span id="year"></span><br/>
                       Усі права захищені
                   </p>

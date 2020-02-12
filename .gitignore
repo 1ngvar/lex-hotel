@@ -3,6 +3,7 @@
 
 #ignore IDE and auxiliary project files
 .idea*/
+*.map
 looplab/*
 img/*
 

@@ -1,3 +1,14 @@
+/*
+Theme Name: Lex Hotel
+Theme URI: http://www.lex-hotel.com.ua/wp-content/themes/lex_hotel
+Description: A custom WordPress theme built for LEX TREND HOTEL
+Author: Igor Prymak
+Author URI:
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
 body {
     background: #333;
     color: #fff;
@@ -30,9 +41,15 @@ body {
     right: 12%;
 }
 
+#carousel {
+    position: absolute;
+    overflow: hidden;
+    max-width: 100%;
+}
+
 #home-section .lex-heading img {
     width: 235px;
-    margin: -8px 0 -8px 30px;
+    margin: -27px 0 -8px 30px;
 }
 #home-section .dark-overlay {
     position: absolute;
@@ -59,23 +76,13 @@ body {
     border-radius: 5px;
 }
 
-.carousel .img-fluid {
-    max-height: 705px;
-    width: 100%;
-}
-
-
 #residence-section .fas {
     color: lightslategray;
     padding: 5px;
-    border-radius: 5px;
 }
 
 #executive-section .fas {
     color: lightslategray;
-    padding: 5px;
-    border: 2px solid lightslategray;
-    border-radius: 5px;
 }
 
 #premium-section .fas {
@@ -106,11 +113,32 @@ body {
     font-weight: bold;
 }
 
+.habitation-conditions .fa-2x {font-size: 1.8em}
+
+.habitation-conditions h3 {margin-bottom: 1rem;}
+
 
 #footer .copyright img {
     width: 93px;
     margin: -3px 0 2px 0;
 }
+
+/*
+Media queries – large screens
+ */
+@media screen and (min-width: 1712px) {
+    #carousel, .carousel-item.active img {
+        width: 100%;
+        max-height: 705px;
+    }
+
+    .carousel-item.active img {
+        object-fit: cover;
+    }
+}
+
+
+
 
 /*
 Media queries – small screen
